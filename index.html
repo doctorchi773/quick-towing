@@ -71,7 +71,7 @@
                     
                     <li class="nav-item"><a class="nav-link link text-white display-4" href="index.html#map">Our Area</a></li><li class="nav-item"><a class="nav-link link text-white display-4" href="index.html#contact-us">Contacts</a></li><li class="nav-item"><a class="nav-link link text-white text-primary display-4" href="index.html#payments">Payments</a></li></ul>
                 
-                <div class="navbar-buttons mbr-section-btn"><a class="btn btn-primary display-4" href="index.html#contact-us" target="_blank">Quote</a></div>
+                <div class="navbar-buttons mbr-section-btn"><a class="btn btn-primary display-4" href="index.html#contact-us" target="_blank">Request Quote</a></div>
             </div>
         </div>
     </nav>
@@ -501,13 +501,13 @@
     
     <div class="container">
         <div class="mbr-section-head">
-            <h3 class="mbr-section-title mbr-fonts-style align-center mb-0 display-2"><strong>Contact us for price quote</strong></h3>
+            <h3 class="mbr-section-title mbr-fonts-style align-center mb-0 display-2"><strong>Hi, I'd like to request a quote</strong></h3>
             <h4 class="mbr-section-subtitle mbr-fonts-style align-center mb-0 mt-2 display-7">We will get back to you fast.</h4>
         </div>
         <div class="row justify-content-center mt-4">
             <div class="col-lg-8 mx-auto mbr-form" data-form-type="formoid">
 <!--Formbuilder Form-->
-<form action="https://mobirise.eu/" method="POST" class="mbr-form form-with-styler" data-form-title="Form Name"><input type="hidden" name="email" data-form-email="true" value="O0KgTbfGZhBRW9vgYAvkUt5HLS/hfuOmmExH2o7UA2LKqa70qxijPLXcRIVkynXeQUPKgepfytF4AFeTehmIq/+HuYUYijbPrI/PIGhRXIgV1thMfzG5qrtXVZKUrK63.ianQBRqQrzyFdll1xQw4bJVDhuoLfCd66yCllIhbiPRC9cfAu73/Qx0HiHgcVqmXej9f6tNKe0FVOVnkJ+QkpjPGxTkAg9AwF/L5RfvJEAUdWLJ3nvEnOwvaA5pSW/mX">
+<form action="https://mobirise.eu/" method="POST" class="mbr-form form-with-styler" data-form-title="Quote Request"><input type="hidden" name="email" data-form-email="true" value="s7+cQGtvR/QJUpp3H85fe2S1x701SaZq+DKr/rnlz9Gu0D3echvXCsbrf6GnfnX8FDL+n0yVkXA4PkPRSwK6zww++MVzxrzvv6OsUeoInUbAFcve3lnhNWbhOCZhFGsq.eF7nIUbk7BTsmde3VhNAMuWe+Waf9+Rq3RWnTNSJNph3OPb1hZQ/2iN+8zZfDL7W0ISnqVodUu34rznXBtGfnBI7fjysvHbLiMkYfAMy+2BNJ2ib0IU0WwdnmuEGxFI6">
 <div class="row">
 <div hidden="hidden" data-form-alert="" class="alert alert-success col-12">Thank you for inquiring, we will get back to you, fast!</div>
 <div hidden="hidden" data-form-alert-danger="" class="alert alert-danger col-12">Oops...! some problem!</div>
@@ -522,89 +522,41 @@
 <div data-for="number" class="col-lg-12 col-md-12 col-sm-12 form-group">
 <input type="number" name="number" placeholder="Ph Number" data-form-field="number" class="form-control display-7" max="100" min="10" step="1" value="" id="number-contact-us">
 </div>
-<div class="col-lg-12 col-md-12 col-sm-12">
-<hr>
+<div data-for="date" class="col-lg-12 col-md-12 col-sm-12 form-group">
+<label for="date-contact-us" class="form-control-label mbr-fonts-style display-7">When</label>
+<input type="date" name="date" data-form-field="date" required="required" class="form-control display-7" value="2023-02-11" id="date-contact-us">
 </div>
-<div data-for="Pick-up address" class="col-lg-12 col-md-12 col-sm-12 form-group">
+<div data-for="select" class="col-lg-12 col-md-12 col-sm-12 form-group">
+<select name="select" data-form-field="select" required="required" class="form-control form-select display-7" id="select-contact-us">
+<option value="Service type">Service type</option>
+<option value="Car towing">Car towing</option>
+<option value="SUV towing">SUV towing</option>
+<option value="Pick-up truck towing">Pick-up truck towing</option>
+<option value="Minivan towing">Minivan towing</option>
+<option value="Motorcycle towing">Motorcycle towing</option>
+<option value="Cargo van towing">Cargo van towing</option>
+<option value="-------------------">-------------------</option>
+<option value="Battery">Battery</option>
+<option value="Battery service">Battery service</option>
+<option value="Tire change">Tire change</option>
+<option value="Car lock-outs">Car lock-outs</option>
+<option value="Fuel delivery">Fuel delivery</option>
+<option value="Stuck in snow/ditch">Stuck in snow/ditch</option>
+<option value="Special vehicle towing">Special vehicle towing</option>
+<option value="Long distance hauling">Long distance hauling</option>
+</select>
+</div>
+<div class="col-lg-12 col-md-12 col-sm-12 form-group" data-for="Pick-up address">
 <input type="text" name="Pick-up address" placeholder="Pick-up Address: address or intersection, where you need service?" data-form-field="Pick-up address" class="form-control display-7" value="" id="Pick-up address-contact-us">
 </div>
 <div class="col-lg-12 col-md-12 col-sm-12 form-group" data-for="Drop off address">
 <input type="text" name="Drop off address" placeholder="Drop off Address: address or intersection, where the vehicle needs to go?" data-form-field="Drop off address" class="form-control display-7" value="" id="Drop off address-contact-us">
 </div>
-<div class="col-lg-12 col-md-12 col-sm-12 form-group">
-<div class="form-control-label">
-<label for="other-contact-us" class="mbr-fonts-style display-7">Vehicle type</label>
-</div>
-<div data-for="4 door sedan" class="form-check form-check-inline ms-2">
-<input type="checkbox" value="Yes" name="4 door sedan" data-form-field="4 door sedan" class="form-check-input display-7" id="4 door sedan-contact-us">
-<label for="4 door sedan-contact-us" class="form-check-label display-7">4 door sedan</label>
-</div>
-<div data-for="SUV" class="form-check form-check-inline ms-2">
-<input type="checkbox" value="Yes" name="SUV" data-form-field="SUV" class="form-check-input display-7" id="SUV-contact-us">
-<label for="SUV-contact-us" class="form-check-label display-7">SUV</label>
-</div>
-<div data-for="Pick up truck" class="form-check form-check-inline ms-2">
-<input type="checkbox" value="Yes" name="Pick up truck" data-form-field="Pick up truck" class="form-check-input display-7" id="Pick up truck-contact-us">
-<label for="Pick up truck-contact-us" class="form-check-label display-7">Pick up truck</label>
-</div>
-<div data-for="Mini van" class="form-check form-check-inline ms-2">
-<input type="checkbox" value="Yes" name="Mini van" data-form-field="Mini van" class="form-check-input display-7" id="Mini van-contact-us">
-<label for="Mini van-contact-us" class="form-check-label display-7">Mini van</label>
-</div>
-<div data-for="Cargo van" class="form-check form-check-inline ms-2">
-<input type="checkbox" value="Yes" name="Cargo van" data-form-field="Cargo van" class="form-check-input display-7" id="Cargo van-contact-us">
-<label for="Cargo van-contact-us" class="form-check-label display-7">Cargo van</label>
-</div>
-<div data-for="other" class="form-check form-check-inline ms-2">
-<input type="checkbox" value="Yes" name="other" data-form-field="other" class="form-check-input display-7" id="other-contact-us">
-<label for="other-contact-us" class="form-check-label display-7">other</label>
-</div>
-</div>
-<div class="col-lg-12 col-md-12 col-sm-12">
-<hr>
-</div>
-<div class="col-lg-12 col-md-12 col-sm-12 form-group">
-<div class="form-control-label">
-<label for="Other-contact-us" class="mbr-fonts-style display-7">Select the service you need?</label>
-</div>
-<div data-for="Tow" class="form-check form-check-inline ms-2">
-<input type="checkbox" value="Yes" name="Tow" data-form-field="Tow" class="form-check-input display-7" id="Tow-contact-us">
-<label for="Tow-contact-us" class="form-check-label display-7">Tow</label>
-</div>
-<div data-for="Flat tire change" class="form-check form-check-inline ms-2">
-<input type="checkbox" value="Yes" name="Flat tire change" data-form-field="Flat tire change" class="form-check-input display-7" id="Flat tire change-contact-us">
-<label for="Flat tire change-contact-us" class="form-check-label display-7">Flat tire change</label>
-</div>
-<div data-for="Key Lock" class="form-check form-check-inline ms-2">
-<input type="checkbox" value="Yes" name="Key Lock" data-form-field="Key Lock" class="form-check-input display-7" id="Key Lock-contact-us">
-<label for="Key Lock-contact-us" class="form-check-label display-7">Key Lock</label>
-</div>
-<div data-for="Stuck in snow" class="form-check form-check-inline ms-2">
-<input type="checkbox" value="Yes" name="Stuck in snow" data-form-field="Stuck in snow" class="form-check-input display-7" id="Stuck in snow-contact-us">
-<label for="Stuck in snow-contact-us" class="form-check-label display-7">Stuck in snow</label>
-</div>
-<div data-for="Accident " class="form-check form-check-inline ms-2">
-<input type="checkbox" value="Yes" name="Accident " data-form-field="Accident " class="form-check-input display-7" id="Accident -contact-us">
-<label for="Accident -contact-us" class="form-check-label display-7">Accident </label>
-</div>
-<div data-for="Fuel delivery" class="form-check form-check-inline ms-2">
-<input type="checkbox" value="Yes" name="Fuel delivery" data-form-field="Fuel delivery" class="form-check-input display-7" id="Fuel delivery-contact-us">
-<label for="Fuel delivery-contact-us" class="form-check-label display-7">Fuel delivery</label>
-</div>
-<div data-for="Ditch" class="form-check form-check-inline ms-2">
-<input type="checkbox" value="Yes" name="Ditch" data-form-field="Ditch" class="form-check-input display-7" id="Ditch-contact-us">
-<label for="Ditch-contact-us" class="form-check-label display-7">Ditch</label>
-</div>
-<div data-for="Other" class="form-check form-check-inline ms-2">
-<input type="checkbox" value="Yes" name="Other" data-form-field="Other" class="form-check-input display-7" id="Other-contact-us">
-<label for="Other-contact-us" class="form-check-label display-7">Other</label>
-</div>
-</div>
-<div class="col-12 form-group mb-3" data-for="textarea">
+<div data-for="textarea" class="col-12 form-group mb-3">
 <textarea name="textarea" placeholder="Message: That can help the tow truck driver get to to you faster." data-form-field="textarea" class="form-control display-7" id="textarea-contact-us"></textarea>
 </div>
 <div class="col-lg-12 col-md-12 col-sm-12 align-center mbr-section-btn">
-<button type="submit" class="w-100 w-100 btn btn-primary display-4">Send message</button>
+<button type="submit" class="w-100 w-100 w-100 w-100 w-100 w-100 w-100 w-100 w-100 btn btn-primary display-4">Send message</button>
 </div>
 </div>
 </form><!--Formbuilder Form-->
@@ -618,7 +570,7 @@
     
     <div>
         
-        <div class="google-map"><iframe frameborder="0" style="border:0" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" allowfullscreen="" loading="lazy" class="lazyload" data-src="https://www.google.com/maps/embed/v1/place?key=AIzaSyDk89J4FSunMF33ruMVWJaJht_Ro0kvoXs&amp;q=Quick Towing, chicago, il"></iframe></div>
+        <div class="google-map"><iframe frameborder="0" style="border:0" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" allowfullscreen="" loading="lazy" class="lazyload" data-src="https://www.google.com/maps/embed/v1/place?key=AIzaSyCNveGQ9bfpKFwWzQLLftrR9hNiHwdqQG8&amp;q=Quick Towing, chicago, il"></iframe></div>
     </div>
 </section>
 
