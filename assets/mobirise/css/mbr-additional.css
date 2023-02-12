@@ -1413,6 +1413,132 @@ a {
 .cid-to8PuqmviY .mbr-section-subtitle {
   color: #ffffff;
 }
+.cid-tvBvZMAFBI {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  background: #f9f9fc;
+}
+.cid-tvBvZMAFBI .list-group-item {
+  background-color: transparent;
+  padding: .5rem 3.25rem;
+  color: #84858a;
+}
+.cid-tvBvZMAFBI .plan {
+  word-break: break-word;
+  background-color: #ffffff;
+  padding: 60px 30px 70px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+@media (max-width: 992px) {
+  .cid-tvBvZMAFBI .plan {
+    margin-bottom: 30px;
+  }
+}
+@media (max-width: 425px) {
+  .cid-tvBvZMAFBI .plan {
+    padding: 30px 15px 40px;
+  }
+}
+.cid-tvBvZMAFBI .plan .plan-header {
+  margin-bottom: 39px;
+}
+.cid-tvBvZMAFBI .plan .plan-header .plan-title {
+  margin-bottom: 22px;
+}
+.cid-tvBvZMAFBI .plan .plan-header .price {
+  margin: 0;
+  color: #20232a;
+}
+.cid-tvBvZMAFBI .plan .plan-header .price-term {
+  margin: 16px 0 0 0;
+}
+.cid-tvBvZMAFBI .plan .plan-body {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.cid-tvBvZMAFBI .plan .list-group li {
+  padding: 8px 0 0 0;
+  border: none;
+}
+.cid-tvBvZMAFBI .plan .list-group li:first-child {
+  padding: 0;
+}
+.cid-tvBvZMAFBI .plan .list-group li::after {
+  transform: translateY(-50%);
+  content: "✓";
+  color: #ffa41d;
+  font-size: 14px;
+  margin-left: 12px;
+}
+.cid-tvBvZMAFBI .plan:hover .price {
+  color: #ffa41d;
+}
+.cid-tvBvZMAFBI .plan:hover .btn {
+  color: #ffffff !important;
+  background: #ffa41d !important;
+  border: none;
+}
+.cid-tvBvZMAFBI .mbr-section-btn {
+  margin-top: 29px;
+}
+.cid-tvBvZMAFBI .btn {
+  height: 55px;
+  min-width: 170px;
+  box-shadow: none;
+  background: transparent !important;
+  color: #20232a !important;
+  border-color: #20232a !important;
+}
+.cid-tvBvZMAFBI .btn:hover {
+  box-shadow: none;
+  color: #ffffff !important;
+  background: #ffa41d !important;
+  border: none;
+}
+.cid-tvBvZMAFBI .mbr-section-subtitle {
+  margin-bottom: 22px;
+  color: #FF4712;
+  text-align: center;
+}
+@media (max-width: 768px) {
+  .cid-tvBvZMAFBI .mbr-section-subtitle {
+    margin-bottom: 8px;
+  }
+}
+.cid-tvBvZMAFBI .mbr-section-title {
+  margin-bottom: 0;
+  color: #20232a;
+  text-align: center;
+}
+.cid-tvBvZMAFBI .mbr-text {
+  margin: 13.5px 0 0 0;
+  color: #84858a;
+  text-align: center;
+}
+@media (max-width: 768px) {
+  .cid-tvBvZMAFBI .mbr-text {
+    margin-top: 10px;
+  }
+}
+.cid-tvBvZMAFBI .mbr-section-head {
+  margin-bottom: 60px;
+}
+@media (max-width: 992px) {
+  .cid-tvBvZMAFBI .mbr-section-head {
+    margin-bottom: 30px;
+  }
+}
+.cid-tvBvZMAFBI .plan-title {
+  color: #20232a;
+}
+.cid-tvBvZMAFBI .price-term {
+  color: #adaeb1;
+}
 .cid-sFzDs3t9EG {
   padding-top: 4rem;
   padding-bottom: 4rem;
@@ -1438,6 +1564,9 @@ a {
   color: #ffffff;
 }
 .cid-sFzDs3t9EG .mbr-section-subtitle {
+  color: #ffffff;
+}
+.cid-sFzDs3t9EG LABEL {
   color: #ffffff;
 }
 .cid-sFAxp7Y5iM {
@@ -1469,6 +1598,51 @@ a {
 }
 .cid-sFAxp7Y5iM .google-map[data-state="loading"] [data-state-details] {
   display: none;
+}
+.cid-tvBuMxYEyn {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  background-color: #00c48c;
+}
+.cid-tvBuMxYEyn .mbr-fallback-image.disabled {
+  display: none;
+}
+.cid-tvBuMxYEyn .mbr-fallback-image {
+  display: block;
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+}
+.cid-tvBuMxYEyn .card-wrapper {
+  background: #353535;
+  border-radius: 4px;
+}
+@media (max-width: 767px) {
+  .cid-tvBuMxYEyn .card-wrapper {
+    padding: 1rem;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .cid-tvBuMxYEyn .card-wrapper {
+    padding: 2rem;
+  }
+}
+@media (min-width: 992px) {
+  .cid-tvBuMxYEyn .card-wrapper {
+    padding: 4rem;
+  }
+}
+.cid-tvBuMxYEyn .mbr-text,
+.cid-tvBuMxYEyn .mbr-section-btn {
+  color: #ffffff;
+  text-align: left;
+}
+.cid-tvBuMxYEyn .card-title,
+.cid-tvBuMxYEyn .card-box {
+  text-align: left;
 }
 .cid-sFCygHrmNf {
   padding-top: 2rem;
