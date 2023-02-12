@@ -507,26 +507,13 @@
         <div class="row justify-content-center mt-4">
             <div class="col-lg-8 mx-auto mbr-form" data-form-type="formoid">
 <!--Formbuilder Form-->
-<form action="https://mobirise.eu/" method="POST" class="mbr-form form-with-styler" data-form-title="Quote Request"><input type="hidden" name="email" data-form-email="true" value="s7+cQGtvR/QJUpp3H85fe2S1x701SaZq+DKr/rnlz9Gu0D3echvXCsbrf6GnfnX8FDL+n0yVkXA4PkPRSwK6zww++MVzxrzvv6OsUeoInUbAFcve3lnhNWbhOCZhFGsq.eF7nIUbk7BTsmde3VhNAMuWe+Waf9+Rq3RWnTNSJNph3OPb1hZQ/2iN+8zZfDL7W0ISnqVodUu34rznXBtGfnBI7fjysvHbLiMkYfAMy+2BNJ2ib0IU0WwdnmuEGxFI6">
+<form action="https://mobirise.eu/" method="POST" class="mbr-form form-with-styler" data-form-title="Quote Request"><input type="hidden" name="email" data-form-email="true" value="ylEoyrl7pzXU+VZSwHD3QknKim2/T3gLfh4pASK5mNomb7X/ph4rgFcckY6Hpg/wjbnwB1JZB55BzUXoDLoIM91QG0u1vVuqBU94Z0zwM87s9e+pqj78Ck4CVmvdo3r8.s6aHN5UlPERmTCWhnMIWUrc13YfxnsmGzM1Tz2JS1qRQfo2+7pxghXFYUQwYz+qvXAX+FrCOlIIsGtmACIGZD1vQtgjjNn8EVmojDi71I8WScG2Ovbbo/O8OOyNc1UmV">
 <div class="row">
 <div hidden="hidden" data-form-alert="" class="alert alert-success col-12">Thank you for inquiring, we will get back to you, fast!</div>
 <div hidden="hidden" data-form-alert-danger="" class="alert alert-danger col-12">Oops...! some problem!</div>
 </div>
 <div class="dragArea row">
-<div class="col-md col-sm-12 form-group mb-3" data-for="name">
-<input type="text" name="name" placeholder="Name" data-form-field="name" class="form-control display-7" value="" id="name-contact-us">
-</div>
-<div class="col-md col-sm-12 form-group mb-3" data-for="email">
-<input type="email" name="email" placeholder="E-mail" data-form-field="email" class="form-control display-7" value="" id="email-contact-us">
-</div>
-<div data-for="number" class="col-lg-12 col-md-12 col-sm-12 form-group">
-<input type="number" name="number" placeholder="Ph Number" data-form-field="number" class="form-control display-7" max="100" min="10" step="1" value="" id="number-contact-us">
-</div>
-<div data-for="date" class="col-lg-12 col-md-12 col-sm-12 form-group">
-<label for="date-contact-us" class="form-control-label mbr-fonts-style display-7">When</label>
-<input type="date" name="date" data-form-field="date" required="required" class="form-control display-7" value="2023-02-11" id="date-contact-us">
-</div>
-<div data-for="select" class="col-lg-12 col-md-12 col-sm-12 form-group">
+<div class="col-lg-12 col-md-12 col-sm-12 form-group" data-for="select">
 <select name="select" data-form-field="select" required="required" class="form-control form-select display-7" id="select-contact-us">
 <option value="Service type">Service type</option>
 <option value="Car towing">Car towing</option>
@@ -544,19 +531,37 @@
 <option value="Stuck in snow/ditch">Stuck in snow/ditch</option>
 <option value="Special vehicle towing">Special vehicle towing</option>
 <option value="Long distance hauling">Long distance hauling</option>
+<option value="Accident">Accident</option>
+<option value="other">other</option>
 </select>
 </div>
-<div class="col-lg-12 col-md-12 col-sm-12 form-group" data-for="Pick-up address">
-<input type="text" name="Pick-up address" placeholder="Pick-up Address: address or intersection, where you need service?" data-form-field="Pick-up address" class="form-control display-7" value="" id="Pick-up address-contact-us">
+<div class="col-lg-12 col-md-12 col-sm-12 form-group" data-for="date">
+<label for="date-contact-us" class="form-control-label mbr-fonts-style display-7">When</label>
+<input type="date" name="date" data-form-field="date" required="required" class="form-control display-7" value="2023-02-11" id="date-contact-us">
 </div>
-<div class="col-lg-12 col-md-12 col-sm-12 form-group" data-for="Drop off address">
-<input type="text" name="Drop off address" placeholder="Drop off Address: address or intersection, where the vehicle needs to go?" data-form-field="Drop off address" class="form-control display-7" value="" id="Drop off address-contact-us">
+<div data-for="Pick-up address" class="col-lg-12 col-md-12 col-sm-12 form-group">
+<input type="text" name="Pick-up address" placeholder="Where you need service? Pick-up address or intersection" data-form-field="Pick-up address" class="form-control display-7" value="" id="Pick-up address-contact-us">
 </div>
-<div data-for="textarea" class="col-12 form-group mb-3">
+<div data-for="Drop off address" class="col-lg-12 col-md-12 col-sm-12 form-group">
+<input type="text" name="Drop off address" placeholder="Where vehicle needs to go? Drop off address or intersection" data-form-field="Drop off address" class="form-control display-7" value="" id="Drop off address-contact-us">
+</div>
+<div class="col-lg-12 col-md-12 col-sm-12" style="">
+<hr>
+</div>
+<div data-for="name" class="col-lg-6 col-md-12 col-sm-12 form-group mb-3" style="">
+<input type="text" name="name" placeholder="Name" data-form-field="name" class="form-control display-7" required="required" value="" id="name-contact-us">
+</div>
+<div class="col-lg-6 col-md-12 col-sm-12 form-group" data-for="number" style="">
+<input type="number" name="number" placeholder="Ph Number" data-form-field="number" class="form-control display-7" max="100" min="10" step="1" value="" id="number-contact-us">
+</div>
+<div data-for="email" class="col-md col-sm-12 form-group mb-3" style="">
+<input type="email" name="email" placeholder="E-mail" data-form-field="email" class="form-control display-7" value="" id="email-contact-us">
+</div>
+<div class="col-12 form-group mb-3" data-for="textarea" style="">
 <textarea name="textarea" placeholder="Message: That can help the tow truck driver get to to you faster." data-form-field="textarea" class="form-control display-7" id="textarea-contact-us"></textarea>
 </div>
 <div class="col-lg-12 col-md-12 col-sm-12 align-center mbr-section-btn">
-<button type="submit" class="w-100 w-100 w-100 w-100 w-100 w-100 w-100 w-100 w-100 btn btn-primary display-4">Send message</button>
+<button type="submit" class="w-100 w-100 w-100 w-100 w-100 w-100 w-100 w-100 w-100 w-100 btn btn-primary display-4">Send message</button>
 </div>
 </div>
 </form><!--Formbuilder Form-->
@@ -570,7 +575,7 @@
     
     <div>
         
-        <div class="google-map"><iframe frameborder="0" style="border:0" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" allowfullscreen="" loading="lazy" class="lazyload" data-src="https://www.google.com/maps/embed/v1/place?key=AIzaSyCNveGQ9bfpKFwWzQLLftrR9hNiHwdqQG8&amp;q=Quick Towing, chicago, il"></iframe></div>
+        <div class="google-map"><iframe frameborder="0" style="border:0" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" allowfullscreen="" loading="lazy" class="lazyload" data-src="https://www.google.com/maps/embed/v1/place?key=AIzaSyCZI5F_k6S1k46ujh0SNrapM89f7mJxd30&amp;q=Quick Towing, chicago, il"></iframe></div>
     </div>
 </section>
 
