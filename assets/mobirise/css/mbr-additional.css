@@ -1031,7 +1031,7 @@ a {
 .cid-sFzxmVl7J6 {
   padding-top: 10rem;
   padding-bottom: 10rem;
-  background-color: #ffffff;
+  background-color: #1a449a;
 }
 .cid-sFzxmVl7J6 .row {
   flex-direction: row-reverse;
@@ -1057,10 +1057,12 @@ a {
 }
 .cid-sFzxmVl7J6 .mbr-text,
 .cid-sFzxmVl7J6 .mbr-section-btn {
-  color: #353535;
+  color: #ffffff;
+  text-align: center;
 }
 .cid-sFzxmVl7J6 .mbr-section-title {
   text-align: center;
+  color: #ffffff;
 }
 .cid-tvBCuEeKd1 {
   padding-top: 60px;
@@ -1160,6 +1162,7 @@ a {
 .cid-to8Mnvh47v .mbr-section-title {
   margin-bottom: 1rem;
   color: #00eb53;
+  text-align: center;
 }
 .cid-to8Mnvh47v .mbr-section-title b:last-child,
 .cid-to8Mnvh47v .mbr-section-title strong:last-child {
@@ -1400,7 +1403,7 @@ a {
   top: 0;
 }
 .cid-to8PuqmviY {
-  padding-top: 7rem;
+  padding-top: 5rem;
   padding-bottom: 0rem;
   background-color: #1a449a;
 }
@@ -1469,9 +1472,9 @@ a {
   color: #ffffff;
 }
 .cid-tvBvZMAFBI {
-  padding-top: 5rem;
+  padding-top: 0rem;
   padding-bottom: 5rem;
-  background: #f9f9fc;
+  background: #279e64;
 }
 .cid-tvBvZMAFBI .list-group-item {
   background-color: transparent;
@@ -1526,16 +1529,16 @@ a {
 .cid-tvBvZMAFBI .plan .list-group li::after {
   transform: translateY(-50%);
   content: "✓";
-  color: #ffa41d;
+  color: #279e64;
   font-size: 14px;
   margin-left: 12px;
 }
 .cid-tvBvZMAFBI .plan:hover .price {
-  color: #ffa41d;
+  color: #279e64;
 }
 .cid-tvBvZMAFBI .plan:hover .btn {
   color: #ffffff !important;
-  background: #ffa41d !important;
+  background: #279e64 !important;
   border: none;
 }
 .cid-tvBvZMAFBI .mbr-section-btn {
@@ -1552,7 +1555,7 @@ a {
 .cid-tvBvZMAFBI .btn:hover {
   box-shadow: none;
   color: #ffffff !important;
-  background: #ffa41d !important;
+  background: #279e64 !important;
   border: none;
 }
 .cid-tvBvZMAFBI .mbr-section-subtitle {
@@ -1593,6 +1596,10 @@ a {
 }
 .cid-tvBvZMAFBI .price-term {
   color: #adaeb1;
+}
+.cid-tvBvZMAFBI .price,
+.cid-tvBvZMAFBI .mbr-section-btn {
+  color: #279e64;
 }
 .cid-sFzDs3t9EG {
   padding-top: 4rem;
