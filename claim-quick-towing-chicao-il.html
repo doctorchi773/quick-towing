@@ -18,7 +18,8 @@ Claim this business">
   <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-grid.min.css">
   <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-reboot.min.css">
   <link rel="stylesheet" href="assets/animatecss/animate.css">
-    <link rel="stylesheet" href="assets/popup-overlay-plugin/style.css">
+  <link rel="stylesheet" href="assets/smart-cart/minicart-theme.css">
+  <link rel="stylesheet" href="assets/popup-overlay-plugin/style.css">
   <link rel="stylesheet" href="assets/dropdown/css/style.css">
   <link rel="stylesheet" href="assets/socicon/css/styles.css">
   <link rel="stylesheet" href="assets/theme/css/style.css">
@@ -46,6 +47,10 @@ Claim this business">
 <meta name="apple-mobile-web-app-title" content="">
 <link rel="apple-touch-icon" href="apple-touch-icon.png"></head>
 <body>
+
+                                <script id="smartCartPayPal" src="https://www.paypal.com/sdk/js?client-id=AQGdS2twE6NJiGhwxAvUvI1s3QCVHefknCShz53Hx8UXlVUI4r8oDS3uEEHcJokN8zbfbW8x-YxEw8Qb&currency=USD"></script>
+<script>var smartCartDefSettings = {"shopcart_top_offset":150,"side_offset":20,"site_width":1150,"shopcart_icon_color":"#ffffff","shopcart_back_color":"#14142b","shopcart_icon_size":50,"sc_count_color":"#14142b","sc_count_back_color":"#fedb01","sc_count_size":16,"buy_now":"Buy now","cart_title":"Your Cart","popup_button":"Add to Cart"};
+                                </script>
   
   <section data-bs-version="5.1" class="menu menu2 cid-twT5cBoTi3" once="menu" id="menu2-25">
     
@@ -159,7 +164,7 @@ Claim this business">
         <div class="row justify-content-center mt-4">
             <div class="col-lg-8 mx-auto mbr-form" data-form-type="formoid">
 <!--Formbuilder Form-->
-<form action="https://mobirise.eu/" method="POST" class="mbr-form form-with-styler mx-auto" data-form-title="Quick Towing Claim"><input type="hidden" name="email" data-form-email="true" value="rhjfdLjdBHAPYysiUZg1dH2CnbLuBlZNqa85b+wdu2+1JlBh3434OhKNQ5X95mQH9mQHLeKm6PeyzSnRJS9XUBESuEflv5zmdAINL7xX4kWFTZJL5RsAcOdB3DngEqMV.l74n/NxFkWnM7hOaVhCQc8932AXuvAbIG2gQprwOSa33WDmH+zBmEHTJufosfailbYt+4kuRZrvwd3dWlm3pOZGEEOQGt0iqU9cSiV/yOSPTimqX3G0Rp+swi2ggCGAC">
+<form action="https://mobirise.eu/" method="POST" class="mbr-form form-with-styler mx-auto" data-form-title="Quick Towing Claim"><input type="hidden" name="email" data-form-email="true" value="FgDjFlpOUfXDpuFq5CIe9k0jIIqqSMBjbiDb+GAv8aepsxaEuZ4Sci9kX5vOEeZx4DSfav5yExHyBitXCrSkb6zCkUIuystfsT5+RnN/tPx3L57xGMMHez37sBOye6jQ.Le5hP0mIAGnel2sSZutgwxXqtRTXgLOcjrpo8MJbCv9zd+WTmmzajsa1z//J/lInkK68OoTJ8WkCtcPmHA2dMQ0YVPnQ7PSRt7ExoOs+UHyDESHaad2XNDfhoqXn1y26">
 <div class="">
 <div hidden="hidden" data-form-alert="" class="alert alert-success col-12">Thanks for filling out the form!</div>
 <div hidden="hidden" data-form-alert-danger="" class="alert alert-danger col-12"> Oops...! some problem! </div>
@@ -261,7 +266,9 @@ Claim this business">
   <script src="assets/web/assets/cookies-alert-plugin/cookies-alert-script.js"></script>
   <script src="assets/smoothscroll/smooth-scroll.js"></script>
   <script src="assets/ytplayer/index.js"></script>
-      <script src="assets/dropdown/js/navbar-dropdown.js"></script>
+  <script src="assets/smart-cart/minicart.js"></script>
+  <script src="assets/smart-cart/minicart-customizer.js"></script>
+  <script src="assets/dropdown/js/navbar-dropdown.js"></script>
   <script src="assets/theme/js/script.js"></script>
   <script src="assets/formoid.min.js"></script>
   
@@ -269,7 +276,7 @@ Claim this business">
   
 <input name="cookieData" type="hidden" data-cookie-cookiesalerttype="false" data-cookie-customdialogselector="null" data-cookie-colortext="#424a4d" data-cookie-colorbg="rgb(234, 239, 241)" data-cookie-opacityoverlay="80" data-cookie-textbutton="OK" data-cookie-rejecttext="REJECT" data-cookie-colorbutton="#40b0bf" data-cookie-rejectcolor="" data-cookie-colorlink="#424a4d" data-cookie-underlinelink="true" data-cookie-text="We use cookies to give you the best experience. Read our <a href='privacy.html'>cookie policy</a>.">
     <input name="animation" type="hidden">
-  <script>"use strict";if("loading"in HTMLImageElement.prototype){document.querySelectorAll('img[loading="lazy"],iframe[loading="lazy"]').forEach(e=>{e.src=e.dataset.src,e.setAttribute("data-temp-style", e.getAttribute("style")),e.style.paddingTop=100*e.getAttribute("data-aspectratio")+"%",e.style.height=0,e.onload=function(){if(e.getAttribute("data-temp-style")!=="null"){e.setAttribute("style", e.getAttribute("data-temp-style"))}else{e.removeAttribute("style")};e.removeAttribute("data-temp-style")}})}else{const e=document.createElement("script");e.src="https://cdnjs.cloudflare.com/ajax/libs/lazysizes/5.1.2/lazysizes.min.js",document.body.appendChild(e)}</script>
+  <script>"use strict";if("loading"in HTMLImageElement.prototype){document.querySelectorAll('img[loading="lazy"],iframe[loading="lazy"]').forEach(e=>{e.src=e.dataset.src;if(e.getAttribute("style")){e.setAttribute("data-temp-style",e.getAttribute("style"))};e.style.paddingTop=100*e.getAttribute("data-aspectratio")+"%";e.style.height=0;e.onload=function(){if(e.getAttribute("data-temp-style")){e.setAttribute("style", e.getAttribute("data-temp-style"))}else{e.removeAttribute("style")};e.removeAttribute("data-temp-style")}})}else{const e=document.createElement("script");e.src="https://cdnjs.cloudflare.com/ajax/libs/lazysizes/5.1.2/lazysizes.min.js";document.body.appendChild(e)}</script>
 
 </body>
 </html>
