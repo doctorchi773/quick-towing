@@ -52,7 +52,7 @@
     ],
     "imageResize": true,
     "cssOptimize": true,
-    "lazyLoad": true,
+    "lazyLoad": false,
     "robotsSwitcher": true,
     "robotsText": "User-agent: *\nDisallow: /cgi-bin\n",
     "sitemapSwitcher": true,
@@ -77,7 +77,7 @@
       "themeColor": "#6592e6"
     },
     "favicon": "@PROJECT_PATH@/assets/images/cutclicks-icon-transparent-1-128x128.png",
-    "mbrsiteDomain": "iktpa9utwd",
+    "mbrsiteDomain": "y2x0ikawtx",
     "gdpr": false,
     "pwa-switcher": true,
     "mcSmartCart": {
